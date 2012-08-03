@@ -1,0 +1,24 @@
+NAME
+    Task::BeLike::SHARYANTO::Patches - SHARYANTO's patch modules
+
+VERSION
+    version 0.01
+
+DESCRIPTION
+    This task will install all SHARYANTO's patch modules.
+
+TASK CONTENTS
+  Included modules
+   HTTP::Daemon::patch::ipv6
+   LWP::UserAgent::patch::https_hard_timeout
+   LWP::UserAgent::patch::log_response
+   Net::HTTP::Methods::patch::log_request
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
