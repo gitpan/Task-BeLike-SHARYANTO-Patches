@@ -2,17 +2,18 @@ NAME
     Task::BeLike::SHARYANTO::Patches - SHARYANTO's patch modules
 
 VERSION
-    version 0.01
+    version 0.02
 
 DESCRIPTION
     This task will install all SHARYANTO's patch modules.
 
 TASK CONTENTS
   Included modules
-   HTTP::Daemon::patch::ipv6
-   LWP::UserAgent::patch::https_hard_timeout
-   LWP::UserAgent::patch::log_response
-   Net::HTTP::Methods::patch::log_request
+   HTTP::Daemon::Patch::IPv6
+   LWP::UserAgent::Patch::HTTPSHardTimeout
+   LWP::UserAgent::Patch::LogResponse
+   Net::HTTP::Methods::Patch::LogRequest
+   UUID::Random::Patch::UseMRS
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 

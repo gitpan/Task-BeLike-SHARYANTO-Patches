@@ -1,6 +1,6 @@
 package Task::BeLike::SHARYANTO::Patches;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 
 1;
@@ -15,7 +15,7 @@ Task::BeLike::SHARYANTO::Patches - SHARYANTO's patch modules
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 
@@ -25,13 +25,15 @@ This task will install all SHARYANTO's patch modules.
 
 =head2 Included modules
 
-=head3 L<HTTP::Daemon::patch::ipv6>
+=head3 L<HTTP::Daemon::Patch::IPv6>
 
-=head3 L<LWP::UserAgent::patch::https_hard_timeout>
+=head3 L<LWP::UserAgent::Patch::HTTPSHardTimeout>
 
-=head3 L<LWP::UserAgent::patch::log_response>
+=head3 L<LWP::UserAgent::Patch::LogResponse>
 
-=head3 L<Net::HTTP::Methods::patch::log_request>
+=head3 L<Net::HTTP::Methods::Patch::LogRequest>
+
+=head3 L<UUID::Random::Patch::UseMRS>
 
 =head1 AUTHOR
 

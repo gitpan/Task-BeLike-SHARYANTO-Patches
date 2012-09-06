@@ -17,16 +17,17 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Task-BeLike-SHARYANTO-Patches",
-  "dist_version" => "0.01",
+  "dist_version" => "0.02",
   "license" => "perl",
   "module_name" => "Task::BeLike::SHARYANTO::Patches",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "HTTP::Daemon::patch::ipv6" => 0,
-    "LWP::UserAgent::patch::https_hard_timeout" => 0,
-    "LWP::UserAgent::patch::log_response" => 0,
-    "Net::HTTP::Methods::patch::log_request" => 0
+    "HTTP::Daemon::Patch::IPv6" => 0,
+    "LWP::UserAgent::Patch::HTTPSHardTimeout" => 0,
+    "LWP::UserAgent::Patch::LogResponse" => 0,
+    "Net::HTTP::Methods::Patch::LogRequest" => 0,
+    "UUID::Random::Patch::UseMRS" => 0
   },
   "script_files" => []
 );
