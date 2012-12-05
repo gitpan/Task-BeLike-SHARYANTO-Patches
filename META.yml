@@ -15,11 +15,14 @@ meta-spec:
 name: Task-BeLike-SHARYANTO-Patches
 requires:
   HTTP::Daemon::Patch::IPv6: 0
+  HTTP::Headers::Patch::DontUseStorable: 0
   LWP::UserAgent::Patch::HTTPSHardTimeout: 0
   LWP::UserAgent::Patch::LogResponse: 0
+  Log::Any::Adapter::Core::Patch::SetDumperIndent: 0
+  Log::Any::Adapter::Core::Patch::UseDataDump: 0
   Net::HTTP::Methods::Patch::LogRequest: 0
   UUID::Random::Patch::UseMRS: 0
 resources:
   homepage: http://metacpan.org/release/Task-BeLike-SHARYANTO-Patches
   repository: http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Patches
-version: 0.02
+version: 0.03

@@ -2,7 +2,7 @@ NAME
     Task::BeLike::SHARYANTO::Patches - SHARYANTO's patch modules
 
 VERSION
-    version 0.02
+    version 0.03
 
 DESCRIPTION
     This task will install all SHARYANTO's patch modules.
@@ -10,6 +10,9 @@ DESCRIPTION
 TASK CONTENTS
   Included modules
    HTTP::Daemon::Patch::IPv6
+   HTTP::Headers::Patch::DontUseStorable
+   Log::Any::Adapter::Core::Patch::SetDumperIndent
+   Log::Any::Adapter::Core::Patch::UseDataDump
    LWP::UserAgent::Patch::HTTPSHardTimeout
    LWP::UserAgent::Patch::LogResponse
    Net::HTTP::Methods::Patch::LogRequest
