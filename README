@@ -2,7 +2,7 @@ NAME
     Task::BeLike::SHARYANTO::Patches - SHARYANTO's patch modules
 
 VERSION
-    version 0.03
+    version 0.04
 
 DESCRIPTION
     This task will install all SHARYANTO's patch modules.
@@ -13,9 +13,11 @@ TASK CONTENTS
    HTTP::Headers::Patch::DontUseStorable
    Log::Any::Adapter::Core::Patch::SetDumperIndent
    Log::Any::Adapter::Core::Patch::UseDataDump
+   Log::Any::Adapter::Core::Patch::UseDataDumperPerltidy
    LWP::UserAgent::Patch::HTTPSHardTimeout
    LWP::UserAgent::Patch::LogResponse
    Net::HTTP::Methods::Patch::LogRequest
+   Time::Duration::Patch::Millisecond
    UUID::Random::Patch::UseMRS
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>

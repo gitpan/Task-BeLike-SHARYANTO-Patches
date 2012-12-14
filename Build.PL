@@ -17,7 +17,7 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Task-BeLike-SHARYANTO-Patches",
-  "dist_version" => "0.03",
+  "dist_version" => "0.04",
   "license" => "perl",
   "module_name" => "Task::BeLike::SHARYANTO::Patches",
   "recommends" => {},
@@ -29,7 +29,9 @@ my %module_build_args = (
     "LWP::UserAgent::Patch::LogResponse" => 0,
     "Log::Any::Adapter::Core::Patch::SetDumperIndent" => 0,
     "Log::Any::Adapter::Core::Patch::UseDataDump" => 0,
+    "Log::Any::Adapter::Core::Patch::UseDataDumperPerltidy" => 0,
     "Net::HTTP::Methods::Patch::LogRequest" => 0,
+    "Time::Duration::Patch::Millisecond" => 0,
     "UUID::Random::Patch::UseMRS" => 0
   },
   "script_files" => []
