@@ -1,6 +1,6 @@
 package Task::BeLike::SHARYANTO::Patches;
 
-our $VERSION = '0.04'; # VERSION
+our $VERSION = '0.05'; # VERSION
 
 
 1;
@@ -15,7 +15,7 @@ Task::BeLike::SHARYANTO::Patches - SHARYANTO's patch modules
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 DESCRIPTION
 
@@ -29,6 +29,8 @@ This task will install all SHARYANTO's patch modules.
 
 =head3 L<HTTP::Headers::Patch::DontUseStorable>
 
+=head3 L<HTTP::Tiny::Patch::LogAny>
+
 =head3 L<Log::Any::Adapter::Core::Patch::SetDumperIndent>
 
 =head3 L<Log::Any::Adapter::Core::Patch::UseDataDump>
@@ -36,6 +38,8 @@ This task will install all SHARYANTO's patch modules.
 =head3 L<Log::Any::Adapter::Core::Patch::UseDataDumperPerltidy>
 
 =head3 L<LWP::UserAgent::Patch::HTTPSHardTimeout>
+
+=head3 L<LWP::UserAgent::Patch::LogRequestContent>
 
 =head3 L<LWP::UserAgent::Patch::LogResponse>
 
@@ -51,7 +55,7 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Steven Haryanto.
+This software is copyright (c) 2013 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

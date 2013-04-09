@@ -1,5 +1,10 @@
 Revision history for Task-BeLike-SHARYANTO-Patches
 
+0.05    2013-04-10 (SHARYANTO)
+
+        - Add LWP::UserAgent::Patch::LogRequestContent.
+
+
 0.04    2012-12-14 (SHARYANTO)
 
         Update.

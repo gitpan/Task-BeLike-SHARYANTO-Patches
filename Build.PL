@@ -17,7 +17,7 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Task-BeLike-SHARYANTO-Patches",
-  "dist_version" => "0.04",
+  "dist_version" => "0.05",
   "license" => "perl",
   "module_name" => "Task::BeLike::SHARYANTO::Patches",
   "recommends" => {},
@@ -25,7 +25,9 @@ my %module_build_args = (
   "requires" => {
     "HTTP::Daemon::Patch::IPv6" => 0,
     "HTTP::Headers::Patch::DontUseStorable" => 0,
+    "HTTP::Tiny::Patch::LogAny" => 0,
     "LWP::UserAgent::Patch::HTTPSHardTimeout" => 0,
+    "LWP::UserAgent::Patch::LogRequestContent" => 0,
     "LWP::UserAgent::Patch::LogResponse" => 0,
     "Log::Any::Adapter::Core::Patch::SetDumperIndent" => 0,
     "Log::Any::Adapter::Core::Patch::UseDataDump" => 0,
