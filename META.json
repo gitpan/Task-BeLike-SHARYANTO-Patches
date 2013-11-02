@@ -4,7 +4,7 @@
       "Steven Haryanto <stevenharyanto@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 5.001, CPAN::Meta::Converter version 2.132140",
    "license" : [
       "perl_5"
    ],
@@ -14,14 +14,9 @@
    },
    "name" : "Task-BeLike-SHARYANTO-Patches",
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Module::Build" : "0.3601"
-         }
-      },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.3601"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "develop" : {
@@ -37,6 +32,7 @@
             "LWP::UserAgent::Patch::HTTPSHardTimeout" : "0",
             "LWP::UserAgent::Patch::LogRequestContent" : "0",
             "LWP::UserAgent::Patch::LogResponse" : "0",
+            "LWP::UserAgent::Patch::Retry" : "0",
             "Log::Any::Adapter::Core::Patch::SetDumperIndent" : "0",
             "Log::Any::Adapter::Core::Patch::UseDataDump" : "0",
             "Log::Any::Adapter::Core::Patch::UseDataDumperPerltidy" : "0",
@@ -44,15 +40,18 @@
             "Time::Duration::Patch::Millisecond" : "0",
             "UUID::Random::Patch::UseMRS" : "0"
          }
+      },
+      "test" : {
+         "requires" : {
+            "File::Spec" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "Test::More" : "0"
+         }
       }
    },
    "release_status" : "stable",
-   "resources" : {
-      "homepage" : "http://metacpan.org/release/Task-BeLike-SHARYANTO-Patches",
-      "repository" : {
-         "url" : "http://github.com/sharyanto/perl-Task-BeLike-SHARYANTO-Patches"
-      }
-   },
-   "version" : "0.05"
+   "resources" : {},
+   "version" : "0.06"
 }
 
